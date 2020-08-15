@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio HTML</title>
+  </head>
+  <body>
+        <header>
+          <h1>Mi Página Personal</h1>
+          <img src="anuario.png" alt="Shred it" style="text-align: left;" width="50%" height="auto">
+        </header>
+        <nav>
+          <a href="#bio">Datos Biográficos</a> | 
+          <a href="#academico">Datos Académicos</a> |
+          <a href="#interes">Sitios de Interés</a> |
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <main>
+          <h1>Bienvenido!</h1>
+          <p style="padding-left: 20px;">
+              Bienvenido a mi página personal!
+          </p>
+          <hr>
+          <h2 id="bio">Datos Biográficos</h2>
+          <table style="border: 2px solid black;">
+              <tr>
+                  <td><b>Nombre: </b></td>
+                  <td>Esteban Cárdenas</td>
+              </tr>
+              <tr>
+                  <td><b>Fecha de nacimiento: </b></td>
+                  <td>2000-03-01</td>
+              </tr>
+              <tr>
+                  <td><b>Lugar de nacimiento: </b></td>
+                  <td>Bogotá, Colombia</td>
+              </tr>
+          </table>
+          <h2 id="academico">Datos Académicos</h2>
+            <ul>
+                <li>Semestre: Sexto</li>
+                <li>PGA: 3.84 (F)</li>
+                <li>Programa: ISIS</li>
+                <li>Doble: Ninguna</li>
+            </ul>
+            <h2 id="interes">Sitios de Interés</h2>
+            <p style="padding-left: 20px;"><b>Videos Favoritos: </b></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Py1iw810MR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HTwA4mXJKsk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LnnSUoJlQsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            <p style="padding-left: 20px;"><b>Enlaces de Interés: </b></p>
+            <ul>
+              <li><a href="https://www.w3schools.com/">Tutoriales de programación</a></li>
+              <li><a href="https://www.tutorialspoint.com/r/index.htm">Tutorial R</a></li>
+              <li><a href="https://syngates.com/">Escuela de guitarra de Synyster Gates</a></li>
+            </ul>
+            <p style="padding-left: 20px;"><b>Imágenes: </b></p>
+            <img src="https://www.mark-knopfler-news.co.uk/wp-content/uploads/2017/09/84-89.8-1.jpg" alt="Mark Knopfler" title="Mark Knopfler" width="30%"><br>
+            <img src="https://live.staticflickr.com/2310/2454360189_5ac1c2cbbd_b.jpg" alt="Synyster Gates" title="Synyster Gates" width="30%"><br>
+            <img src="https://www.nme.com/wp-content/uploads/2019/05/Webp.net-resizeimage-10.jpg" alt="David Gilmour" title="David Gilmour" width="30%"><br>
+            <h2 id="contacto">Contacto</h2>
+            <form>
+              <input id="Nombres" placeholder="Nombres" required><br>
+              <input id="Apellidos" placeholder="Apellidos" required><br>
+              <input id="Correo" placeholder="Correo" required><br>
+              <textarea placeholder="Tu mensaje" cols="50" rows="10" required></textarea><br><br>
+              <input type="submit" value="Enviar!"><br>
+            </form>
+          </main>
+          <hr><br>
+    <footer>
+        <address>
+          <b>Datos de Contacto </b><br>
+          Correo: <a href="mailto:ne.cardenas@uniandes.edu.co">ne.cardenas@uniandes.edu.co</a><br>
+          Carné Uniandes: 201813011<br>
+          Nicolás Esteban Cárdenas Cortés
+        </address>
+    </footer>
+  </body>
+</html>
